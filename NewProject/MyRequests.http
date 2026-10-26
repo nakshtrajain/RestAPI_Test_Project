@@ -1,0 +1,11 @@
+GET http://localhost:5030/todos
+
+###
+
+POST http://localhost:5030/todos
+Content-Type : application/json
+
+{
+    "Id" : 3,
+    "Name" : "Naksh3"
+}
